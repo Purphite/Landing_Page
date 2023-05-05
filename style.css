@@ -1,0 +1,145 @@
+body {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: orange;
+    flex-direction: column;
+    text-shadow: 2px 2px 5px blue;
+}
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+.link {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    
+}
+.ball {
+    height: 50px;
+    width: 50px;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: orange;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 2px 2px 5px white;
+}
+a:hover {
+    color: white;
+}
+.section-1 {
+    background-color: #E07B1C10;
+    width: 100%;
+}
+.first-text {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-items: flex-start;
+}
+.goku {
+    height: 200px;
+    width: 400px;
+    border-radius: 25px;
+}
+.text-image {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px;
+}
+button {
+    padding: 7px 14px;
+    background-color: #1C57E040;
+    border-color: orange;
+    font-weight: bold;
+    border-radius: 25px;
+}
+.heroes {
+    max-height: 200px;
+    max-width: 200px;
+    width: auto;
+    height: auto;
+    margin-bottom: 20px;
+}
+.crew {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.section-2 {
+    width: 100%;
+    background-color: #1C57E010;
+}
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    
+}
+.section-3 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E07B1C10;
+    
+}
+.qoute {
+    width: 40%;
+    padding: 80px;
+}
+
+.footer {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E07B1C10;
+}
+.call {
+    background-color: #ffffff30;
+    width: 60%;
+    margin: 50px;
+    padding: 20px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.section-4 {
+    width: 100%;
+    background-color: #1C57E010;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.over-9000 {
+    margin-left: 200px;
+}
+.super {
+    width: 50%;
+}
+.gif {
+    border-radius: 25px;
+}
+.section-2 h1 {
+    text-align: center;
+}
