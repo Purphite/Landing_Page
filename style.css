@@ -10,9 +10,9 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    color: orange;
+    color: #f0833a;
     flex-direction: column;
-    text-shadow: 2px 2px 5px blue;
+    text-shadow: 2px 2px 5px black;
 }
 .top-header {
     display: flex;
@@ -24,26 +24,24 @@ body {
     display: flex;
     flex-direction: row;
     gap: 40px;
-    
 }
 .ball {
-    height: 50px;
-    width: 50px;
+    max-height: 50px;
+    max-width: 50px;
+    width: auto;
+    height: auto;
 }
 li {
     list-style: none;
 }
 a {
-    text-decoration: none;
     color: orange;
     font-family: 'Courier New', Courier, monospace;
-    text-shadow: 2px 2px 5px white;
 }
 a:hover {
     color: white;
 }
 .section-1 {
-    background-color: #E07B1C10;
     width: 100%;
 }
 .first-text {
@@ -53,8 +51,10 @@ a:hover {
     align-items: flex-start;
 }
 .goku {
-    height: 200px;
-    width: 400px;
+    max-height: 600px;
+    max-width: 700px;
+    width: auto;
+    height: auto;
     border-radius: 25px;
 }
 .text-image {
@@ -71,8 +71,8 @@ button {
     border-radius: 25px;
 }
 .heroes {
-    max-height: 200px;
-    max-width: 200px;
+    max-height: 400px;
+    max-width: 400px;
     width: auto;
     height: auto;
     margin-bottom: 20px;
@@ -84,22 +84,19 @@ button {
 }
 .section-2 {
     width: 100%;
-    background-color: #1C57E010;
 }
 .hero {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    
+    text-align: center;
 }
 .section-3 {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #E07B1C10;
-    
 }
 .qoute {
     width: 40%;
@@ -112,10 +109,8 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #E07B1C10;
 }
 .call {
-    background-color: #ffffff30;
     width: 60%;
     margin: 50px;
     padding: 20px;
@@ -126,13 +121,9 @@ button {
 }
 .section-4 {
     width: 100%;
-    background-color: #1C57E010;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.over-9000 {
-    margin-left: 200px;
 }
 .super {
     width: 50%;
@@ -142,4 +133,13 @@ button {
 }
 .section-2 h1 {
     text-align: center;
+}
+figcaption {
+    margin-top: 10px;
+    text-align: right;
+}
+figure {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
