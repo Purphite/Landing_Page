@@ -3,7 +3,7 @@ body {
     padding: 0;
     margin: 0;
     font-family: 'Courier New', Courier, monospace;
-    background-image: url("background.jpg");
+    background-image: url("space.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     -webkit-background-size: cover;
@@ -35,7 +35,7 @@ li {
     list-style: none;
 }
 a {
-    color: orange;
+    color: #f0833a;
     font-family: 'Courier New', Courier, monospace;
 }
 a:hover {
